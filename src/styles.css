@@ -1,0 +1,21 @@
+.hero {
+    background-color: #f8f9fa;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.btn-animated {
+    transition: transform 0.9s ease-in-out, background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-animated:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    background-color: #0056b3; /* Darker blue on hover */
+}
+  footer {
+    background-color: #f8f9fa;
+  }
+  
